@@ -23,12 +23,16 @@ This is a simple React application that fetches and displays random GIFs using t
 git clone https://github.com/your-username/random-gif-generator.git
 cd random-gif-generator
 npm install
+```
 
 ### 2. Create a .env file and set the API key
 ```
-    REACT_APP_GIPHY_API_KEY=your_api_key_here
+REACT_APP_GIPHY_API_KEY=your_api_key_here
+```
 
 ### 3. Start application
 ``` bash
 npm start
+
+
 
