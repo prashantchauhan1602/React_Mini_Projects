@@ -24,7 +24,10 @@ git clone https://github.com/your-username/random-gif-generator.git
 cd random-gif-generator
 npm install 
 
+### 2. Create a .env file and set the API key
 Create a .env file and set the api_key here !!
 REACT_APP_GIPHY_API_KEY=your_api_key_here
+
+### 3. Start application
 npm start
 
