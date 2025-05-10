@@ -6,7 +6,7 @@ export default function Blogs() {
   const { posts, loading } = useContext(AppContext);
 
   return (
-    <div className="flex flex-col gap-y-10 my-4">
+    <div className="flex flex-col my-8">
       {loading ? (
         <div className="min-h-[80vh] w-full flex justify-center items-center">
           <p className="text-center font-bold text-3xl">Loading</p>

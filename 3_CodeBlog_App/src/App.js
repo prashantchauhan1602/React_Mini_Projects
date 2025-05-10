@@ -1,9 +1,7 @@
  import "./App.css";
 import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
-import Header from "./components/Header";
 import Blogs from "./components/Blogs";
-import Pagination from "./components/Pagination";
 import Home from "./pages/Home"
 import TagPage from "./pages/TagPage" 
 import CategoryPage from "./pages/CategoryPage"
