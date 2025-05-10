@@ -7,7 +7,6 @@ import {useEffect} from "react";
 import {useState} from "react";
 import {toast} from "react";
 import Cards from "./components/Cards";
-// import Card from "./components/Card";
 
 const App = () => {
 
@@ -17,6 +16,7 @@ const App = () => {
   const[category , setCategory] = useState(filterData[0].title);
 
   async function fetchData(){
+    console.log("API URL is : ", apiUrl)
     setLoading(true);
     try{
       let res = await fetch(apiUrl);

@@ -31,7 +31,7 @@ const Card = (props) =>{
     return(
         <div className="w-[300px] bg-bgDark rounded-md overflow-hidden mx-3 my-3">
             <div className="relative">
-                <img src={course.image.url} ></img>
+                <img src={course.image.url} alt="Course_Image" ></img>
 
                 <div className="w-[40px] h-[40px] bg-white absolute right-2 bottom-3 rounded-full 
                 grid place-items-center">
